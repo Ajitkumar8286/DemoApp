@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+.banner{
+    background-image:url("src/assets/images/banner.jpg");
+    /* background-image:url("https://static01.nyt.com/images/2021/01/17/fashion/13workathome/13workathome-mobileMasterAt3x.jpg"); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.overlay {
+    width: 100%;
+    height: 600px;
+    /* position: fixed; Stay in place */
+    z-index: 1; /* Sit on top */
+    background-color: rgba(126, 177, 240, 0.342); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+
+    }
+
+    .homedata{
+        /* z-index: 1; */
+        text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    h2{
+        color:white;
+        padding-bottom: 20px;
+        font-style: italic;
+    }
+  .search{
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      padding: 100px;
+  }  
+.search input{
+    width: 60%;
+    
+}
+button{
+    border-radius: 0px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.registerbtn{
+    margin-top: 50px;
+}
+.sect2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(240, 231, 231);
+}

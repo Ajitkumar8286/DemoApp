@@ -1,0 +1,26 @@
+<div style="background-color: blue;"><app-nav></app-nav>
+</div>
+<div class="container ">
+    <div class="profile">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- <img src="/src/assets/images/banner.jpg"> -->
+                <img [src]="imagePath" width="100px" ><br>
+                <button class="btn btn-warning" style="margin-right: 10px;" (click)="editprofile()">Edit Photo</button>
+                <button class="btn btn-warning" (click)="editprofile()">Edit Proflie</button>
+            </div>
+            <div class="col-md-8">
+                <div class="details">
+                    <p>I'm {{userdata.firstname}} {{userdata.lastname}} and Im above
+                         {{userdata.Age}} years and you can send
+                        your email to {{userdata.Email}}. I live in the state of {{userdata.State}} 
+                            {{userintrest}}
+                         {{userdata.game}} And please send me newsletter. 
+                        Please reach out me on my phone number.
+                    </p>
+                    <button class="btn btn-success">I Agree</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

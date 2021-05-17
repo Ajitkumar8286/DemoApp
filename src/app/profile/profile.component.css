@@ -1,0 +1,18 @@
+img{ 
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+.details{
+    margin: 20px;
+}
+.profile{
+    margin-top: 50px;
+    justify-content: center;
+}
+.btn-success{
+    border-radius: 0px;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
