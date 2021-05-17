@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { JobsComponent } from './jobs/jobs.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { JobsComponent } from './jobs/jobs.component';
     ProfileComponent,
     AboutComponent,
     JobsComponent,
+    ContactComponent,
     
   ],
   imports: [
