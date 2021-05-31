@@ -34,6 +34,7 @@ export class RegisterComponent implements OnInit {
     
   }
   createForm() {
+    console.log("from initialized");
     this.RegisterForm = this._fb.group({
       firstname: ["",[Validators.required,Validators.maxLength(20)]],
       lastname: ["",[Validators.required]],
